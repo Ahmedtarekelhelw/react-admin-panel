@@ -1,0 +1,32 @@
+.sidebar {
+  flex: 1;
+  padding: 15px;
+  background-color: rgb(251, 251, 255);
+  height: calc(100vh - 60px);
+  color: #555;
+  position: sticky;
+  top: 60px;
+}
+
+.sidebar-section {
+  margin-bottom: 10px;
+}
+.sidebar-section h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: rgb(187, 180, 180);
+}
+
+.section a {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  width: 100%;
+  padding: 5px;
+}
+
+.section a.active,
+.section a:hover {
+  background-color: rgb(240, 240, 255);
+  border-radius: 8px;
+}

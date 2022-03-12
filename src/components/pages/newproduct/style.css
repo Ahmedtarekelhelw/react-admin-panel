@@ -1,0 +1,48 @@
+.new-product {
+  flex: 6;
+  margin: 0 20px;
+}
+
+.new-product h3 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.new-product form {
+  width: 40%;
+}
+
+.new-product form .input {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.new-product form .input label {
+  padding-bottom: 10px;
+  color: #555;
+}
+
+.new-product form .input:first-child input {
+  border: none;
+}
+.new-product form .input input,
+.new-product form .input select {
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  border: 1px solid gray;
+}
+
+.new-product form button {
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  background-color: rgb(27, 27, 145);
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+}

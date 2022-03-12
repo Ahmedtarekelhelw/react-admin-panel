@@ -1,0 +1,134 @@
+.user {
+  flex: 6;
+  margin: 0 20px;
+}
+
+.user .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user .head h3 {
+  font-size: 27px;
+}
+.user .head button {
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: rgb(3, 151, 151);
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user .body {
+  margin-top: 25px;
+  display: flex;
+}
+.user .body .user-data {
+  flex: 1;
+  box-shadow: 0px 0px 20px 1px #f3f0f0;
+  padding: 20px;
+  margin-right: 25px;
+}
+.user .body .user-data .user-info {
+  display: flex;
+  align-items: center;
+}
+.user .body .user-data .user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.user .body .user-data .user-info .user-title {
+  display: flex;
+  flex-direction: column;
+}
+.user .body .user-data .user-info .user-title .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.user .body .user-data .user-info .user-title .job {
+  color: #555;
+}
+
+.user .body .user-data ul {
+}
+.user .body .user-data ul h4 {
+  color: rgb(187, 184, 184);
+  margin: 25px 0;
+}
+.user .body .user-data ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user .body .user-data ul li .icon {
+  margin-right: 10px;
+  font-size: 19px !important;
+}
+
+.user .body .edit-form {
+  flex: 2;
+  box-shadow: 0px 0px 20px 1px #f3f0f0;
+  padding: 20px;
+}
+
+.user .body .edit-form h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.user .body .edit-form form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user .body .edit-form form .left .input {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  width: 250px;
+}
+.user .body .edit-form form .left .input label {
+  padding-bottom: 10px;
+  color: #555;
+}
+.user .body .edit-form form .left .input input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  padding-bottom: 5px;
+}
+
+.user .body .edit-form form .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user .body .edit-form form .right .upload {
+  display: flex;
+  align-items: center;
+}
+
+.user .body .edit-form form .right .upload img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user .body .edit-form form .right button {
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: rgb(27, 27, 145);
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}

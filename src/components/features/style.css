@@ -1,0 +1,38 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .box {
+  flex: 1;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 1px #f3f0f0;
+
+  margin: 0px 20px;
+  border-radius: 5px;
+}
+.features .box h4 {
+  color: #555;
+  font-size: 20px;
+}
+.features .box .info {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.features .box .info .money {
+  margin-right: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.features .box .info .rate {
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+.features .box h5 {
+  color: rgb(191, 187, 187);
+}

@@ -1,0 +1,30 @@
+.user-list {
+  margin: 0 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.edit {
+  border: none;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-right: 25px;
+  background-color: #3bb077;
+  color: #fff;
+  cursor: pointer;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+}

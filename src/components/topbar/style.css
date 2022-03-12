@@ -1,0 +1,53 @@
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+header .container {
+  min-height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .left {
+  font-size: 30px;
+}
+
+header .left .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+header .right {
+  display: flex;
+  align-items: center;
+}
+header .right .icon-container {
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+header .right .icon-container .icon {
+  color: #555;
+  font-size: 30px;
+}
+header .right .icon-container span {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  width: 20px;
+  top: -7px;
+  border-radius: 50%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  right: -4px;
+}
+
+header .right .image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
